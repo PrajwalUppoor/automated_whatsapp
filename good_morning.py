@@ -8,6 +8,6 @@ def sendmorningmessage():
     message = client.messages.create(
                             from_='whatsapp:+14155238886',
                             body='Good Night ',
-                            to='whatsapp:+919036636009'
+                            to='whatsapp:+91'
                            )
     print(message.sid)
